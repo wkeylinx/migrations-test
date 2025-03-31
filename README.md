@@ -63,6 +63,11 @@ Applies pending migrations to the database.
 ```powershell
 Update-Database -Project ExampleLib.Data -StartupProject ExampleApp
 ```
+### Create Database Scripts Based On Migrations
+Applies pending migrations to the database.
+```powershell
+Script-Migration -From Migration1 -To Migration2 -Project ExampleLib.Data -StartupProject ExampleApp
+```
 
 Make sure the correct Default Project is selected in the console dropdown when executing these commands.
 
