@@ -1,0 +1,6 @@
+@dotnet_migrations_test_HostAddress = http://localhost:5161
+
+GET {{dotnet_migrations_test_HostAddress}}//Books/
+Accept: application/json
+
+###
