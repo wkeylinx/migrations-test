@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dotnet-migrations-test.data\ExampleLib.Data.csproj" />
+    <ProjectReference Include="..\ExampleLib.Data\ExampleLib.Data.csproj" />
   </ItemGroup>
 
 </Project>
